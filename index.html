@@ -130,10 +130,10 @@ h2 {
 }
 
 .ui-input input.filled {
-  color: #ffffff;
+  color: #582170;
 }
 .ui-input input.filled + label::after {
-  background-color: #ffffff;
+  background-color: #582170;
 }
 .ui-input input.filled + label span::after {
   background-image: linear-gradient(to right, #ffffff 50%, rgba(255, 255, 255, 0) 0%);
@@ -153,15 +153,15 @@ h2 {
 
 .ui-input input.error,
 .ui-input input:invalid {
-  color: #E66161;
+  color: #582170;
 }
 .ui-input input.error + label::after,
 .ui-input input:invalid + label::after {
-  background-color: #E66161;
+  background-color: #582170;
 }
 .ui-input input.error + label span::after,
 .ui-input input:invalid + label span::after {
-  background-image: linear-gradient(to right, #E66161 50%, rgba(255, 255, 255, 0) 0%);
+  background-image: linear-gradient(to right, #582170 50%, rgba(255, 255, 255, 0) 0%);
   background-position: 0% 50%;
 }
 
@@ -235,35 +235,35 @@ h2 {
   <form class="form" id="form1" action="https://docs.google.com/forms/d/e/1FAIpQLScdK6EtsIUfP7iCHA5YDWOZCRIrxAdpaBbOnPihS7_3idJ0hw/formResponse">
     
     <fieldset class="form-fieldset ui-input __first">
-      <input type="text" id="username" tabindex="0"  name="entry.1928931155" />
+      <input type="text" id="username" tabindex="0"  name="entry.1928931155" required >
       <label for="username">
         <span data-text="Nombre">Nombre</span>
       </label>
     </fieldset>
     
     <fieldset class="form-fieldset ui-input __second">
-      <input type="email" id="email" tabindex="0" name="entry.496485560" />
+      <input type="email" id="email" tabindex="0" name="entry.496485560" required >
       <label for="email">
         <span data-text="Correo">Correo</span>
       </label>
     </fieldset>
     
     <fieldset class="form-fieldset ui-input __third">
-      <input type="text" id="empresa" name="entry.113365826" />
+      <input type="text" id="empresa" name="entry.113365826" required >
       <label for="Empresa">
         <span data-text="Empresa">Empresa</span>
       </label>
     </fieldset>
 
     <fieldset class="form-fieldset ui-input __third">
-      <input type="text" id="ocupacion" name="entry.316524056" />
+      <input type="text" id="ocupacion" name="entry.316524056" required >
       <label for="ocupacion">
         <span data-text="Ocupación">Ocupación</span>
       </label>
     </fieldset>
 
     <fieldset class="form-fieldset ui-input __third">
-      <input type="number" id="telefono" name="entry.906878378" />
+      <input type="number" id="telefono" name="entry.906878378" required >
       <label for="telefono">
         <span data-text="Teléfono">Teléfono</span>
       </label>
@@ -271,7 +271,7 @@ h2 {
     
     
     <div class="form-footer">
-      <button id="registrar" style="margin-left: 30%" class="btn">Registrar</button>
+      <button id="registrar" style="margin-left: 20%" class="btn">Registrar</button>
     </div>
   </form>
 </div>
