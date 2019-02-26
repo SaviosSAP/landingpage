@@ -4,6 +4,7 @@ $input.blur(function (e) {
   $(this).toggleClass('filled', !!$(this).val());
 });
 
+
 $("#registrar").click(function() {
   
   var nombre = $("#username").val();
@@ -24,4 +25,5 @@ $("#registrar").click(function() {
     $("#empresa").val(empresa);
     $("#ocupacion").val(ocupacion);
     $("#telefono").val(telefono);
-  }});
+  }
+});
