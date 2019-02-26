@@ -24,4 +24,4 @@ $("#registrar").click(function() {
     $("#empresa").val(empresa);
     $("#ocupacion").val(ocupacion);
     $("#telefono").val(telefono);
-  });
+  }});
